@@ -41,6 +41,9 @@
 ;; Go to end of buffer.
 (global-set-key (kbd "<f3>") 'end-of-buffer)
 
+;; Comment a region.
+(global-set-key (kbd "<f4>") 'comment-region)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Miscellaneous
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
