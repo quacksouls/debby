@@ -44,6 +44,9 @@
 ;; Comment a region.
 (global-set-key (kbd "<f4>") 'comment-region)
 
+;; Uncomment a region.
+(global-set-key (kbd "<f5>") 'uncomment-region)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Miscellaneous
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
