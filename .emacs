@@ -24,11 +24,14 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal :weight normal :height 98 :width normal)))))
 
+;; Disable the menu bar
+(menu-bar-mode -1)
+
 ;; Disable the splash screen.
 (setq inhibit-splash-screen t)
 
 ;; Window width and height.
-(add-to-list 'default-frame-alist '(height . 57))
+(add-to-list 'default-frame-alist '(height . 58))
 (add-to-list 'default-frame-alist '(width . 83))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
