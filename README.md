@@ -1,3 +1,3 @@
-# debby
+I no longer maintain this repository.
 
-Miscellaneous scripts and configuration files for my Linux box.
+**New development at [mvngu/debby](https://github.com/mvngu/debby)**
